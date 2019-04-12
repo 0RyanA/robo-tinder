@@ -26,24 +26,32 @@
 	margin-right: 20px;
 	font-size: 40px;
 }
-#save {
+#upb {
 	margin-left: 450px;
-	margin-top: 9px;
+	margin-top: 15px;
+	height: 50px;
+	width: 100px;
+	font-size: 25px;
+}
+#backb {
+	margin-left: -555px;
+	height: 80px;
+	width: 100px;
+	font-size: 43px;
+	background-color: #ABA8B2;
+}
+#likeb {
+	height: 70px;
+	width: 90px;
+	
 }
 .topbar{
 	height: 80px;
 	width: 1000px;
 	position: fixed;
-	background-color: grey;
+	background-color: #ABA8B2;
 	margin-top: -130px;
 	margin-left: -8px
-}
-.smbox{
-	height: 40px;
-	width: 70px;
-	border: 5px solid black;
-	padding-left: 8px;
-	padding-bottom: 8px;
 }
 .firstindent {
 	margin-top: 130px;
