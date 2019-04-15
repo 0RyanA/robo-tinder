@@ -40,10 +40,12 @@
 	font-size: 43px;
 	background-color: #ABA8B2;
 }
-#likeb {
-	height: 70px;
-	width: 90px;
-	
+#draftb {
+	height: 60px;
+	width: 100px;
+	margin-left: 778px;
+	margin-top: 10px;
+	font-size: 25px;
 }
 .topbar{
 	height: 80px;
