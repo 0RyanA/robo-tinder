@@ -14,20 +14,47 @@
 </div>
 <div id="box" class="firstindent">
 	<h1 id="team">Team Name</h1>
-	<h3 id="pts">Hatch:</h3>
-	<h3 id="pts">Cargo:</h3>
-	<h3 id="opr">HAB:</h3>
-	<h3 id="dpr">Highest Pts:</h3>
-	<h2 id="add">+</h2>
+	<h3 id="hc">Hatch:<p id="score1"></p></h3>
+	<h3 id="hc">Cargo:<p id="score2"></p></h3>
+	<h3 id="hab">HAB:<p id="score3"></p></h3>
+	<h3 id="pts">Highest Pts:<p id="score4"></p></h3>
+	<label class="check">
+		<input type="checkbox" checked="checked">
+		<span class="checkmark"></span>
+	</label>
 </div>
 <div id="box" class="boxindent">
 	<h1 id="team">Team Name</h1>
-	<h3 id="pts">Hatch:</h3>
-	<h3 id="pts">Cargo:</h3>
-	<h3 id="opr">HAB:</h3>
-	<h3 id="dpr">Highest Pts:</h3>
-	<h2 id="add">+</h2>
+	<h3 id="hc">Hatch:</h3>
+	<h3 id="hc">Cargo:</h3>
+	<h3 id="hab">HAB:</h3>
+	<h3 id="pts">Highest Pts:</h3>
+	<label class="check">
+		<input type="checkbox" checked="checked">
+		<span class="checkmark"></span>
+	</label>
 </div>
+<div id="box" class="boxindent">
+	<h1 id="team">Team Name</h1>
+	<h3 id="hc">Hatch:</h3>
+	<h3 id="hc">Cargo:</h3>
+	<h3 id="hab">HAB:</h3>
+	<h3 id="pts">Highest Pts:</h3>
+	<label class="check">
+		<input type="checkbox" checked="checked">
+		<span class="checkmark"></span>
+	</label>
+</div>
+<script>
+document.getElementById("score1").innerHTML =
+Math.floor(Math.random() * 50) + 1;
+document.getElementById("score2").innerHTML =
+Math.floor(Math.random() * 50) + 1;
+document.getElementById("score3").innerHTML =
+Math.floor(Math.random() * 50) + 1;
+document.getElementById("score4").innerHTML =
+Math.floor(Math.random() * 50) + 1;
+</script>
 </body>
 
 </html>
