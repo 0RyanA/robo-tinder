@@ -31,12 +31,15 @@ body {
 	height: 50px;
 	width: 100px;
 	font-size: 25px;
+	font-weight: bold;
+	background-color: #ABA8B2;
 }
 #backb {
 	margin-left: -555px;
 	height: 80px;
 	width: 100px;
 	font-size: 43px;
+	font-weight: bold;
 	background-color: #ABA8B2;
 }
 #draftb {
@@ -45,6 +48,8 @@ body {
 	margin-left: 778px;
 	margin-top: 10px;
 	font-size: 25px;
+	font-weight: bold;
+	background-color: #ABA8B2;
 }
 .topbar{
 	height: 80px;
