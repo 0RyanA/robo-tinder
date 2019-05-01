@@ -1,5 +1,5 @@
 body {
-	background-color: #3D62A6;
+	background-color: #ABA8B2;
 }
 #team {
 	font-size: 30px;
@@ -32,7 +32,7 @@ body {
 	width: 100px;
 	font-size: 25px;
 	font-weight: bold;
-	background-color: #ABA8B2;
+	background-color: #3D62A6;
 }
 #backb {
 	margin-left: -555px;
@@ -40,7 +40,7 @@ body {
 	width: 100px;
 	font-size: 43px;
 	font-weight: bold;
-	background-color: #ABA8B2;
+	background-color: #3D62A6;
 }
 #draftb {
 	height: 60px;
@@ -49,13 +49,13 @@ body {
 	margin-top: 10px;
 	font-size: 25px;
 	font-weight: bold;
-	background-color: #ABA8B2;
+	background-color: #3D62A6;
 }
 .topbar{
 	height: 80px;
 	width: 1000px;
 	position: fixed;
-	background-color: #ABA8B2;
+	background-color: #3D62A6;
 	margin-top: -130px;
 	margin-left: -8px
 }
